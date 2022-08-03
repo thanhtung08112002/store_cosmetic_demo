@@ -68,7 +68,9 @@ header {
   bottom: 0;
   width: 320px;
   z-index: 10;
-  right: -100%;
+  /* right: -100%; */
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .search_mobile {
