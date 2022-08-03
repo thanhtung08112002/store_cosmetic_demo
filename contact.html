@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col">
+            <div class="logo_nav d-flex">
+              <div class="logo col-1">
+                <a href="./index.html"
+                  ><img src="./assets/img/logo-nubeauty-new-1.jpg" alt=""
+                /></a>
+              </div>
+              <nav class="col-11">
+                <ul class="d-flex">
+                  <li>
+                    <a href="./category.html" onmouseout="out_in(this)"
+                      >Category</a
+                    >
+                  </li>
+                  <li><a href="./woman.html" onmouseout="out_in(this)">Woman</a></li>
+                  <li><a href="./kids.html" onmouseout="out_in(this)">Kids</a></li>
+                  <li>
+                    <a href="./about.html" onmouseout="out_in(this)">About</a>
+                  </li>
+                  <li>
+                    <a href="./contact.html" onmouseout="out_in(this)"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col">
+            <div class="login_cart_search d-flex float-end">
+              <div class="login">
+                <a href="#">
+                  <span onmouseout="out_in(this)">
+                    <i class="fa-solid fa-user"></i>Login</span
+                  >
+                </a>
+              </div>
+              <div class="cart">
+                <a href="#">
+                  <span onmouseout="out_in(this)"
+                    ><i class="fa-solid fa-basket-shopping"></i>Basket (0)</span
+                  >
+                </a>
+              </div>
+              <div class="search">
+                <form action="" class="d-flex">
+                  <input
+                    type="text"
+                    placeholder="search"
+                    class="form-control"
+                  />
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass form-control"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- nav mobile -->
+            <div class="icons_responsive">
+              <button onclick="list_mobile(this)" id="btn_list_moblie">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="nav_overlay" onclick="list_mobile_hidden(this)"></div>
+              <div class="nav_mobile">
+                <div class="nav_close">
+                  <i
+                    class="fa-solid fa-xmark"
+                    onclick="list_mobile_hidden_btn(this)"
+                  ></i>
+                </div>
+                <div class="search search_mobile">
+                  <form action="" class="d-flex">
+                    <input
+                      type="text"
+                      placeholder="search"
+                      class="form-control"
+                    />
+                    <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass form-control"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="login_cart_mobile d-flex">
+                  <div class="login login_mobile">
+                    <a href="#">
+                      <span> <i class="fa-solid fa-user"></i>Login</span>
+                    </a>
+                  </div>
+                  <div class="cart cart_mobile">
+                    <a href="#">
+                      <span
+                        ><i class="fa-solid fa-basket-shopping"></i>Basket
+                        (0)</span
+                      >
+                    </a>
+                  </div>
+                </div>
+                <ul class="d-flex list_mobile">
+                  <li><a href="./category.html">Category</a></li>
+                  <li><a href="./woman.html">Woman</a></li>
+                  <li><a href="./kids.html">Kids</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+      <article>
+        <div class="row">
+          <div class="history">
+            <a href="./index.html">home</a>
+            <span>/</span>
+            <a href="./contact.html">contact</a>
+          </div>
+        </div>
+        <section class="form_contact">
+          <div class="row">
+            <div class="col">
+              <div class="form_contact-title">
+                <h2>contact</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                  mollitia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <form action="">
+                <div class="form_group">
+                  <label for="chosse">topic</label>
+                  <select name="chosse" id="">
+                    <option value="">chosse</option>
+                    <option value="sunscreen">sunscreen</option>
+                    <option value="facewash">facewash</option>
+                    <option value="lotion">lotion</option>
+                  </select>
+                </div>
+                <div class="form_group form_group-detail">
+                  <div class="form_group-name">
+                    <label for="username">name</label>
+                    <input type="text" name="username" placeholder="name" />
+                  </div>
+                  <div class="form_group-email">
+                    <label for="email">e-mail</label>
+                    <input type="email" name="email" placeholder="email" />
+                  </div>
+                </div>
+                <div class="form_group">
+                  <label for="message">message</label>
+                  <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div id="location"></div>
+                <div class="btn">
+                  <input type="submit" name="btn-submit" value="SEND" />
+                  <input
+                    type="button"
+                    name="btn-location"
+                    value="LOCATION-NOW"
+                    onclick="getLocation(this)"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!-- end article -->
+      <footer>
+        <div class="row">
+          <div class="col-3">
+            <div class="collection">
+              <h4>collection</h4>
+              <ul>
+                <li><a href="#">Woman</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Comming Soon</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="site">
+              <h4>site</h4>
+              <ul>
+                <li>Terms of service</li>
+                <li>Privaci policy</li>
+                <li>Press kit</li>
+                <li>Support</li>
+              </ul>
+            </div>
+            </div>
+          <div class="col-3">
+            <div class="shop">
+              <h4>shop</h4>
+              <ul>
+                <li>About us</li>
+                <li>Shipping Metods</li>
+                <li>carrer</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            </div>
+          <div class="col-3">
+            <div class="social">
+              <h4>social</h4>
+              <ul>
+                <li>Shoper is made with love in Warsaw</li>
+                <li>2014 All rights reserved. El Passion</li>
+              </ul>
+              <div class="app_icons">
+                <a href="https://twitter.com/i/flow/login" ><i onmouseout="out_in(this)" class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" ><i onmouseout="out_in(this)" class="fa-brands fa-facebook-f fb"></i></a>
+                <a href="https://www.instagram.com/" ><i onmouseout="out_in(this)" class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+    </div>
+    <script src="./assets/js/onmouseout.js"></script>
+    <script src="./assets/js/geolocation.js"></script>
+  </body>
+</html>

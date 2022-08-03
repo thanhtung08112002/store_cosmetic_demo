@@ -1,0 +1,38 @@
+/* footer */
+footer h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  footer ul {
+    font-size: 14px;
+    list-style: none;
+    padding-left: 0;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  footer ul li a:hover {
+    text-decoration: underline;
+    color: #333;
+  }
+  .app_icons a i {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    padding: 11px;
+    margin-right: 10px;
+    color: #333;
+    border-radius: 3px;
+  }
+  .app_icons a .fb {
+    padding-left: 14px;
+  }
+  .app_icons a:hover i {
+    transition: ease-in 0.3s;
+    color: #fff;
+    background-color: var(--color--primary);
+    border: var(--color--primary);
+  }
+  

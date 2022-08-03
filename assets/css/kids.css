@@ -1,0 +1,92 @@
+:root{
+    --productname-color: #f72585;
+    --productname-color-hover: #f9758f;
+    --productprice-color: red;
+  }
+article {
+  margin: 3rem 0 6rem 0;
+}
+.history {
+  margin-left: -0.5rem;
+}
+.history span {
+  margin: 0 0.5rem;
+  color: rgba(61, 58, 58, 0.749);
+}
+.history a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgba(61, 58, 58, 0.749);
+}
+.title_product {
+  text-align: center;
+  padding-top: 5rem;
+}
+.title_product h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.title_product span {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+.table_list {
+  margin-top: 3rem;
+}
+.list_price select,
+.list_topic select,
+.list_brand select {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  font-style: italic;
+  color: #333;
+  font-weight: bold;
+}
+.list_product{
+    padding-top: 5rem;
+}
+.product{
+  margin-top: 3rem;
+}
+.product a{
+    text-decoration: none;
+}
+.product_information p {
+    overflow: hidden;
+    line-height: 1.8rem;
+    height: 3.6rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: var(--productname-color);
+    font-weight: bold;
+  }
+  .product_information p:hover{
+    color: var(--productname-color-hover);
+  }
+  .product_information span{
+    color: var(--productprice-color);
+    font-weight: bold;
+  }
+  .product_img {
+    transition: all 0.2s linear;
+    margin-bottom: 20px;
+  }
+  .product_img img{
+    width: 100%;
+    height: 100%;
+  }
+  .product_img:hover {
+    transform: scale(1.06);
+  }
+
+  
