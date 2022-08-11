@@ -1,0 +1,111 @@
+article {
+  margin: 3rem 0 6rem 0;
+}
+.history {
+  margin-left: -0.5rem;
+}
+.history span {
+  margin: 0 0.5rem;
+  color: rgba(61, 58, 58, 0.749);
+}
+.history a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: rgba(61, 58, 58, 0.749);
+}
+.title {
+  margin: 50px 0;
+  text-align: center;
+}
+.title h2 {
+  text-transform: uppercase;
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.title span a {
+  font-family: "Courgette", cursive;
+  font-size: 1.2rem;
+  color: gray;
+  padding-right: 5px;
+}
+
+.form_contact {
+  width: 50%;
+  margin: auto;
+  margin-top: 3rem;
+}
+.form_contact-title {
+  text-align: center;
+}
+.form_contact-title h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-family: "Cabin", sans-serif;
+}
+.form_contact-title p {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.form_group > label {
+  text-transform: uppercase;
+}
+.form_group > select,
+.form_group > textarea {
+  outline: none;
+  color: #333;
+}
+.form_group > textarea {
+  resize: none;
+  padding-left: 0.3rem;
+}
+.form_group-detail {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form_group-name {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.form_group-email {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.form_group-name label,
+.form_group-email label {
+  text-transform: uppercase;
+}
+.form_group-name input,
+.form_group-email input {
+  outline: none;
+  padding-left: 0.3rem;
+}
+.btn {
+  width: 100%;
+  text-align: center;
+  cursor: auto;
+}
+.btn input {
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  background-color: rgb(247, 176, 46);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn input:hover {
+  background-color: rgba(247, 177, 46, 0.751);
+}
