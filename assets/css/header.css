@@ -98,7 +98,7 @@ header {
 }
 .login_cart_mobile {
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 10px;
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -172,7 +172,7 @@ header {
 }
 .login,
 .cart {
-  margin-right: 30px;
+  margin-right: 10px;
   font-size: 20px;
 }
 .login a,

@@ -1,0 +1,93 @@
+article {
+  margin: 3rem 0 6rem 0;
+}
+.error{
+  color: red;
+}
+.error_login{
+  font-size: 20px;
+}
+.form_login {
+  /* width: 50%; */
+  margin: auto;
+  margin-top: 3rem;
+}
+.form_login-title {
+  text-align: center;
+}
+.form_login-title h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-family: "Cabin", sans-serif;
+}
+.form_login-title p {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+.form_login-account form .btn_login {
+  text-align: center;
+}
+.form_login-account{
+  height: 100%;
+}
+#login{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+form .form_group {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.row.form_login-form {
+  margin-top: 5rem;
+}
+.row.form_login-form .form_login-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.row.form_login-form .form_login-img img {
+  width: 70%;
+  height: 70%;
+}
+.btn_login input {
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  background-color: rgb(247, 176, 46);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.btn_login input:hover {
+  background-color: rgba(247, 177, 46, 0.751);
+}
+form label {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+.form_group input {
+  height: 2.2rem;
+  outline: none;
+  border-radius: 5px;
+  border: 1px #333 solid;
+}
+.form_group input{
+  padding-left: .4rem;
+}
+.btn_login p {
+  font-size: 18px;
+}
+.btn_login p a{
+  font-size: 20px;
+  color: rgb(42, 38, 38);
+  font-weight: bold
+}

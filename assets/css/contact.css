@@ -90,6 +90,10 @@ article {
   outline: none;
   padding-left: 0.3rem;
 }
+.form_group input, .form_group textarea, .form_group select {
+  border-radius: 5px;
+  border: 1px #333 solid;
+}
 .btn {
   width: 100%;
   text-align: center;
@@ -103,6 +107,7 @@ article {
   color: #fff;
   border: none;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .btn input:hover {

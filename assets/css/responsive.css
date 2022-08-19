@@ -261,5 +261,10 @@ margin-top: 1rem;
 .product {
   margin: 2rem -1.5rem 0 -1.5rem;
 }
-
+.row.form_login-form .col-5 .form_login-img{
+  display: none;
+}
+.row.form_register-form .col-5 .form_register-img{
+  display: none;
+}
 }
